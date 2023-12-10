@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D241AE982B252E54002EA609 /* CharacterPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE8A2B252E54002EA609 /* CharacterPreview.swift */; };
+		D241AE992B252E54002EA609 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE8B2B252E54002EA609 /* SwiftUIView.swift */; };
+		D241AEA62B2531E6002EA609 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AEA52B2531E6002EA609 /* KeyboardViewController.swift */; };
+		D241AEAA2B2531E6002EA609 /* SwiftUI Keyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D241AEA32B2531E5002EA609 /* SwiftUI Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D241AEAF2B253209002EA609 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE832B252E54002EA609 /* KeyboardView.swift */; };
+		D241AEB02B253215002EA609 /* SymbolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE8F2B252E54002EA609 /* SymbolsView.swift */; };
+		D241AEB12B25324E002EA609 /* LowercaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE872B252E54002EA609 /* LowercaseView.swift */; };
+		D241AEB22B253255002EA609 /* UppercaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE902B252E54002EA609 /* UppercaseView.swift */; };
+		D241AEB32B253258002EA609 /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE882B252E54002EA609 /* NumbersView.swift */; };
+		D241AEB42B25325C002EA609 /* QuickPunctuationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE8C2B252E54002EA609 /* QuickPunctuationView.swift */; };
+		D241AEB52B253260002EA609 /* SharedModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE8D2B252E54002EA609 /* SharedModule.swift */; };
+		D241AEB62B253267002EA609 /* LongPressDragSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE852B252E54002EA609 /* LongPressDragSquareView.swift */; };
+		D241AEB72B25326A002EA609 /* LongPressToDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE862B252E54002EA609 /* LongPressToDragView.swift */; };
+		D241AEB82B253287002EA609 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE832B252E54002EA609 /* KeyboardView.swift */; };
+		D241AEB92B25328B002EA609 /* SymbolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE8F2B252E54002EA609 /* SymbolsView.swift */; };
+		D241AEBA2B25328E002EA609 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AEA52B2531E6002EA609 /* KeyboardViewController.swift */; };
+		D241AEBB2B253290002EA609 /* LowercaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE872B252E54002EA609 /* LowercaseView.swift */; };
+		D241AEBC2B253293002EA609 /* UppercaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE902B252E54002EA609 /* UppercaseView.swift */; };
+		D241AEBD2B253296002EA609 /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE882B252E54002EA609 /* NumbersView.swift */; };
+		D241AEBE2B253298002EA609 /* QuickPunctuationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE8C2B252E54002EA609 /* QuickPunctuationView.swift */; };
+		D241AEBF2B25329A002EA609 /* SharedModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE8D2B252E54002EA609 /* SharedModule.swift */; };
+		D241AEC02B25329D002EA609 /* LongPressDragSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE852B252E54002EA609 /* LongPressDragSquareView.swift */; };
+		D241AEC12B25329F002EA609 /* LongPressToDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE862B252E54002EA609 /* LongPressToDragView.swift */; };
+		D241AEC22B2532DC002EA609 /* CharacterPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE8A2B252E54002EA609 /* CharacterPreview.swift */; };
+		D241AEC32B2532DF002EA609 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241AE8B2B252E54002EA609 /* SwiftUIView.swift */; };
 		D2C48ED62B240CAF004E2EEC /* Custom_KeyboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C48ED52B240CAF004E2EEC /* Custom_KeyboardApp.swift */; };
 		D2C48ED82B240CAF004E2EEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C48ED72B240CAF004E2EEC /* ContentView.swift */; };
 		D2C48EDA2B240CB0004E2EEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C48ED92B240CB0004E2EEC /* Assets.xcassets */; };
@@ -17,6 +42,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D241AEA82B2531E6002EA609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2C48ECA2B240CAF004E2EEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D241AEA22B2531E5002EA609;
+			remoteInfo = "SwiftUI Keyboard";
+		};
 		D2C48EE32B240CB1004E2EEC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D2C48ECA2B240CAF004E2EEC /* Project object */;
@@ -33,7 +65,35 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D241AEAE2B2531E6002EA609 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D241AEAA2B2531E6002EA609 /* SwiftUI Keyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D241AE832B252E54002EA609 /* KeyboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		D241AE852B252E54002EA609 /* LongPressDragSquareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongPressDragSquareView.swift; sourceTree = "<group>"; };
+		D241AE862B252E54002EA609 /* LongPressToDragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongPressToDragView.swift; sourceTree = "<group>"; };
+		D241AE872B252E54002EA609 /* LowercaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LowercaseView.swift; sourceTree = "<group>"; };
+		D241AE882B252E54002EA609 /* NumbersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
+		D241AE8A2B252E54002EA609 /* CharacterPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterPreview.swift; sourceTree = "<group>"; };
+		D241AE8B2B252E54002EA609 /* SwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		D241AE8C2B252E54002EA609 /* QuickPunctuationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickPunctuationView.swift; sourceTree = "<group>"; };
+		D241AE8D2B252E54002EA609 /* SharedModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedModule.swift; sourceTree = "<group>"; };
+		D241AE8F2B252E54002EA609 /* SymbolsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolsView.swift; sourceTree = "<group>"; };
+		D241AE902B252E54002EA609 /* UppercaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UppercaseView.swift; sourceTree = "<group>"; };
+		D241AEA32B2531E5002EA609 /* SwiftUI Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SwiftUI Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D241AEA52B2531E6002EA609 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		D241AEA72B2531E6002EA609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2C48ED22B240CAF004E2EEC /* Custom Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C48ED52B240CAF004E2EEC /* Custom_KeyboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_KeyboardApp.swift; sourceTree = "<group>"; };
 		D2C48ED72B240CAF004E2EEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +107,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D241AEA02B2531E5002EA609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2C48ECF2B240CAF004E2EEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,12 +138,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D241AE892B252E54002EA609 /* Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				D241AE8A2B252E54002EA609 /* CharacterPreview.swift */,
+				D241AE8B2B252E54002EA609 /* SwiftUIView.swift */,
+			);
+			path = Overlays;
+			sourceTree = "<group>";
+		};
+		D241AEA42B2531E6002EA609 /* SwiftUI Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D241AE892B252E54002EA609 /* Overlays */,
+				D241AE832B252E54002EA609 /* KeyboardView.swift */,
+				D241AE8F2B252E54002EA609 /* SymbolsView.swift */,
+				D241AEA52B2531E6002EA609 /* KeyboardViewController.swift */,
+				D241AE872B252E54002EA609 /* LowercaseView.swift */,
+				D241AE902B252E54002EA609 /* UppercaseView.swift */,
+				D241AE882B252E54002EA609 /* NumbersView.swift */,
+				D241AE8C2B252E54002EA609 /* QuickPunctuationView.swift */,
+				D241AE8D2B252E54002EA609 /* SharedModule.swift */,
+				D241AE852B252E54002EA609 /* LongPressDragSquareView.swift */,
+				D241AE862B252E54002EA609 /* LongPressToDragView.swift */,
+				D241AEA72B2531E6002EA609 /* Info.plist */,
+			);
+			path = "SwiftUI Keyboard";
+			sourceTree = "<group>";
+		};
 		D2C48EC92B240CAF004E2EEC = {
 			isa = PBXGroup;
 			children = (
 				D2C48ED42B240CAF004E2EEC /* Custom Keyboard */,
 				D2C48EE52B240CB1004E2EEC /* Custom KeyboardTests */,
 				D2C48EEF2B240CB1004E2EEC /* Custom KeyboardUITests */,
+				D241AEA42B2531E6002EA609 /* SwiftUI Keyboard */,
 				D2C48ED32B240CAF004E2EEC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +183,7 @@
 				D2C48ED22B240CAF004E2EEC /* Custom Keyboard.app */,
 				D2C48EE22B240CB1004E2EEC /* Custom KeyboardTests.xctest */,
 				D2C48EEC2B240CB1004E2EEC /* Custom KeyboardUITests.xctest */,
+				D241AEA32B2531E5002EA609 /* SwiftUI Keyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +227,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D241AEA22B2531E5002EA609 /* SwiftUI Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D241AEAB2B2531E6002EA609 /* Build configuration list for PBXNativeTarget "SwiftUI Keyboard" */;
+			buildPhases = (
+				D241AE9F2B2531E5002EA609 /* Sources */,
+				D241AEA02B2531E5002EA609 /* Frameworks */,
+				D241AEA12B2531E5002EA609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI Keyboard";
+			productName = "SwiftUI Keyboard";
+			productReference = D241AEA32B2531E5002EA609 /* SwiftUI Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		D2C48ED12B240CAF004E2EEC /* Custom Keyboard */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2C48EF62B240CB1004E2EEC /* Build configuration list for PBXNativeTarget "Custom Keyboard" */;
@@ -137,10 +251,12 @@
 				D2C48ECE2B240CAF004E2EEC /* Sources */,
 				D2C48ECF2B240CAF004E2EEC /* Frameworks */,
 				D2C48ED02B240CAF004E2EEC /* Resources */,
+				D241AEAE2B2531E6002EA609 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D241AEA92B2531E6002EA609 /* PBXTargetDependency */,
 			);
 			name = "Custom Keyboard";
 			productName = "Custom Keyboard";
@@ -193,6 +309,9 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					D241AEA22B2531E5002EA609 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
 					D2C48ED12B240CAF004E2EEC = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
@@ -222,11 +341,19 @@
 				D2C48ED12B240CAF004E2EEC /* Custom Keyboard */,
 				D2C48EE12B240CB1004E2EEC /* Custom KeyboardTests */,
 				D2C48EEB2B240CB1004E2EEC /* Custom KeyboardUITests */,
+				D241AEA22B2531E5002EA609 /* SwiftUI Keyboard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D241AEA12B2531E5002EA609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2C48ED02B240CAF004E2EEC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,12 +380,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D241AE9F2B2531E5002EA609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D241AEB42B25325C002EA609 /* QuickPunctuationView.swift in Sources */,
+				D241AEB72B25326A002EA609 /* LongPressToDragView.swift in Sources */,
+				D241AEC32B2532DF002EA609 /* SwiftUIView.swift in Sources */,
+				D241AEB62B253267002EA609 /* LongPressDragSquareView.swift in Sources */,
+				D241AEC22B2532DC002EA609 /* CharacterPreview.swift in Sources */,
+				D241AEB22B253255002EA609 /* UppercaseView.swift in Sources */,
+				D241AEB52B253260002EA609 /* SharedModule.swift in Sources */,
+				D241AEA62B2531E6002EA609 /* KeyboardViewController.swift in Sources */,
+				D241AEAF2B253209002EA609 /* KeyboardView.swift in Sources */,
+				D241AEB32B253258002EA609 /* NumbersView.swift in Sources */,
+				D241AEB12B25324E002EA609 /* LowercaseView.swift in Sources */,
+				D241AEB02B253215002EA609 /* SymbolsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2C48ECE2B240CAF004E2EEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D2C48ED82B240CAF004E2EEC /* ContentView.swift in Sources */,
+				D241AEC02B25329D002EA609 /* LongPressDragSquareView.swift in Sources */,
+				D241AEBD2B253296002EA609 /* NumbersView.swift in Sources */,
 				D2C48ED62B240CAF004E2EEC /* Custom_KeyboardApp.swift in Sources */,
+				D241AEBF2B25329A002EA609 /* SharedModule.swift in Sources */,
+				D241AEB92B25328B002EA609 /* SymbolsView.swift in Sources */,
+				D241AEC12B25329F002EA609 /* LongPressToDragView.swift in Sources */,
+				D241AEBB2B253290002EA609 /* LowercaseView.swift in Sources */,
+				D241AE992B252E54002EA609 /* SwiftUIView.swift in Sources */,
+				D241AEBC2B253293002EA609 /* UppercaseView.swift in Sources */,
+				D241AEBE2B253298002EA609 /* QuickPunctuationView.swift in Sources */,
+				D241AEB82B253287002EA609 /* KeyboardView.swift in Sources */,
+				D241AE982B252E54002EA609 /* CharacterPreview.swift in Sources */,
+				D241AEBA2B25328E002EA609 /* KeyboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +440,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D241AEA92B2531E6002EA609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D241AEA22B2531E5002EA609 /* SwiftUI Keyboard */;
+			targetProxy = D241AEA82B2531E6002EA609 /* PBXContainerItemProxy */;
+		};
 		D2C48EE42B240CB1004E2EEC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D2C48ED12B240CAF004E2EEC /* Custom Keyboard */;
@@ -295,6 +458,56 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		D241AEAC2B2531E6002EA609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 479PUC2W3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI Keyboard/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SwiftUI Keyboard";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RaymondAdams.Custom-Keyboard.SwiftUI-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D241AEAD2B2531E6002EA609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 479PUC2W3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI Keyboard/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SwiftUI Keyboard";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RaymondAdams.Custom-Keyboard.SwiftUI-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		D2C48EF42B240CB1004E2EEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -417,6 +630,7 @@
 		D2C48EF72B240CB1004E2EEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -425,6 +639,8 @@
 				DEVELOPMENT_TEAM = 479PUC2W3C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Custom Keyboard";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -446,6 +662,7 @@
 		D2C48EF82B240CB1004E2EEC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +671,8 @@
 				DEVELOPMENT_TEAM = 479PUC2W3C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Custom Keyboard";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -551,6 +770,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D241AEAB2B2531E6002EA609 /* Build configuration list for PBXNativeTarget "SwiftUI Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D241AEAC2B2531E6002EA609 /* Debug */,
+				D241AEAD2B2531E6002EA609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D2C48ECD2B240CAF004E2EEC /* Build configuration list for PBXProject "Custom Keyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
